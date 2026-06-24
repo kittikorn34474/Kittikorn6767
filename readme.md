@@ -1,51 +1,56 @@
-# ศูนย์รวมโปรเจกต์ของ  KIttikorn👋
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ Kittikorn">
+    <title>ความภาคภูมิใจของ KITTIKORN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ส่วนหัวของเว็บ -->
+    <header>
+        <h1>สวัสดี! ผมคือ KITTIKORN</h1>
+        <p>นี่คือผลงานและความภาคภูมิใจของผม</p>
+    </header>
+    <!-- ส่วนเกี่ยวกับตัวเอง -->
+    <section id="about">
+        <h2>เกี่ยวกับผม</h2>
+        <p>ผมเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 6 ที่ชื่นชอบในวิชาภาษาอังกฤษ นี่คือผลงานของผม</p>
+    </section>
+    <!-- ส่วนแสดงผลงาน -->
+    <section id="projects">
+        <h2>ผลงานของผม</h2>
+        <div class="project">
+            <h3>เว็บไซต์ Portfolio</h3>
+            <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ผมสร้างขึ้นเพื่อแสดงความสามารถของผม</p>
+        </div>
+        <div class="project">
+            <h3>เข้าร่วมค่าย IYF GLOBAL CAMP</h3>
+            <p>เป็นการอบรมเพื่อให้รู้ถึงการเข้าสังคมกับชาวต่างชาติและมอบความรู้แลกเปลี่ยนภาษาและวัฒนธรรมกัน</p>
+        </div>
+    </section>
+    <!-- ส่วนแสดงทักษะ -->
+    <section id="skills">
+        <h2>ทักษะของผม</h2>
+        <ul>
+            <li>ทักษะด้านการคิดวิเคราะห์</li>
+            <li>การต่อคำ</li>
+            <li>ทักษะการสื่อสาร</li>
+            <li>ทักษะการพูด</li>
+        </ul>
+    </section>
+    <!-- ส่วนติดต่อและลิขสิทธิ์ -->
+    <footer>
+        <p>
+            ติดต่อผมได้ที่:
+            <a href="mailto:Kittikornyim2551@gmail.com">Kittikornyim2551@gmail.com</a>
+        </p>
+        <p>&copy; <span id="year"></span> KITTTIKORN. All rights reserved.</p>
+    </footer>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Welcome%20to%20My%20Profile&fontSize=50&animation=fadeIn" width="100%" alt="Banner" />
-</p>
+    <!-- ลิงก์ไปยัง JavaScript -->
+    <script src="script.js"></script>
 
-## 👤 เกี่ยวกับฉัน (About Me)
-
-ยินดีต้อนรับสู่พื้นที่เก็บโค้ดของฉัน! ฉันเป็นคนชอบสร้างสรรค์เทคโนโลยีและเรียนรู้สิ่งใหม่ๆ อยู่เสมอ 🚀
-
-* 🎯 **ปัจจุบันกำลังโฟกัสเรื่อง:** [เช่น Web Development / Data Science / iOS Apps]
-* 💡 **ความสนใจ:** [เช่น AI, UI/UX Design, Open Source Platforms]
-* 🌱 **กำลังศึกษาเพิ่มเติมเกี่ยวกับ:** [เช่น React, Python, Docker]
-* 💬 **ชวนคุยเรื่อง:** [เช่น บอร์ดเกม, กาแฟ, เทคโนโลยีใหม่ๆ]
-
----
-
-## 🛠️ ทักษะและความเชี่ยวชาญ (Skills)
-
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
----
-
-## 📊 สถิติ GitHub (GitHub Stats)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radial" alt="GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radial" alt="Top Langs" height="150" />
-</p>
-
----
-
-## 📫 ช่องทางการติดต่อ (Contact Me)
-
-<p align="left">
-  <a href="mailto:kittikornyim2551@email.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://facebook.com/your-profile">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-</p>
+</body>
+</html>
